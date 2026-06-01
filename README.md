@@ -15,6 +15,6 @@ The primary objective of this project was to successfully fine-tune a modern Tra
 The project was developed iteratively over four phases, documented in the following sequential Jupyter Notebooks:
 
 * `01_preprocessing.ipynb`: Tokenization, padding/truncation (max 512 tokens), and caching datasets to disk.
-* `02_finetuning.ipynb`: Freezing DistilBERT layers, configuring the Hugging Face `Trainer` API, and executing CPU-optimized training.
-* `03_lstm_baseline_and_attention.ipynb`: Construction of the GloVe-LSTM baseline and extraction/visualization of transformer attention weights via heatmaps.
+* `02_distilbert_training.ipynb`: Freezing DistilBERT layers, configuring the Hugging Face `Trainer` API, and executing CPU-optimized training.
+* `03_lstm_and_attention.ipynb`: Construction of the GloVe-LSTM baseline and extraction/visualization of transformer attention weights via heatmaps.
 * `04_evaluation_and_ablation.ipynb`: Error analysis (extracting False Positives/Negatives), generating confusion matrices, and the data-scaling ablation study.
